@@ -24,16 +24,16 @@ This Android Studio project is a simple birthday greeting app that displays a bi
 2. The app will display a birthday greeting with an image and a "from" message.
 3. Customize the birthday message and the "from" message by modifying the message and from parameters in the MainActivity class.
 
-```Surface(
+````Surface(
 modifier = Modifier.fillMaxSize(),
 color = MaterialTheme.colorScheme.background
 ) {
 BirthdayGreetingWithImage("Happy Birthday Sam!", "- from Emma")
-}``
+}```
 
 4. You can also modify the styling of the birthday message and the "from" message by adjusting the font size in the BirthdayGreetingWithText function.
 
-``@Composable
+```@Composable
 fun BirthdayGreetingWithText(message: String, from: String, modifier: Modifier = Modifier) {
     Column(modifier = modifier) {
         Text(
@@ -45,19 +45,19 @@ fun BirthdayGreetingWithText(message: String, from: String, modifier: Modifier =
             fontSize = 24.sp
         )
     }
-}``
+}```
 
 ## Preview
 
 A preview of the birthday card can be viewed using the BirthdayCardPreview function.
 
-``@Preview(showBackground = true)
+```@Preview(showBackground = true)
 @Composable
 fun BirthdayCardPreview() {
 HappyBirthdayTheme {
 BirthdayGreetingWithImage("Happy Birthday Sam!", "- from Emma")
 }
-}``
+}```
 
 ## Dependencies
 
@@ -82,4 +82,4 @@ This project relies on the following dependencies:
 ## License
 
 This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as needed.
-```
+````
