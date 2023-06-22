@@ -63,14 +63,21 @@ BirthdayGreetingWithImage("Happy Birthday Sam!", "- from Emma")
 
 This project relies on the following dependencies:
 
-- androidx.activity:activity-compose
-- androidx.compose.foundation:foundation
-- androidx.compose.material3:material3
-- androidx.compose.runtime:runtime
-- androidx.compose.ui:ui
-- androidx.compose.ui:ui-tooling
-- androidx.compose.ui:ui-tooling-preview
-- androidx.compose.ui:ui-unit
+- android.os.Bundle
+- androidx.activity.ComponentActivity
+- androidx.activity.compose.setContent
+- androidx.compose.foundation.Image
+- androidx.compose.foundation.layout.Box
+- androidx.compose.foundation.layout.Column
+- androidx.compose.foundation.layout.fillMaxSize
+- androidx.compose.material3.MaterialTheme
+- androidx.compose.material3.Surface
+- androidx.compose.material3.Text
+- androidx.compose.runtime.Composable
+- androidx.compose.ui.Modifier
+- androidx.compose.ui.res.painterResource
+- androidx.compose.ui.tooling.preview.Preview
+- androidx.compose.ui.unit.sp
 
 ## License
 
