@@ -9,8 +9,7 @@ This Android Studio project is a simple birthday greeting app that displays a bi
 
 ## Prerequisites
 
-- Android Studio (version X.X or higher)
-- Android SDK (minimum SDK version X)
+- Android Studio (version Flamingo | 2022.2.1 or higher)
 
 ## Getting Started
 
