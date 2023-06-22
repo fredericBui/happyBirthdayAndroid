@@ -59,9 +59,9 @@ A preview of the birthday card can be viewed using the BirthdayCardPreview funct
 @Preview(showBackground = true)
 @Composable
 fun BirthdayCardPreview() {
-HappyBirthdayTheme {
-BirthdayGreetingWithImage("Happy Birthday Sam!", "- from Emma")
-}
+    HappyBirthdayTheme {
+        BirthdayGreetingWithImage("Happy Birthday Sam!", "- from Emma")
+    }
 }
 ```
 
@@ -88,7 +88,3 @@ This project relies on the following dependencies:
 ## License
 
 This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as needed.
-
-```
-
-```
